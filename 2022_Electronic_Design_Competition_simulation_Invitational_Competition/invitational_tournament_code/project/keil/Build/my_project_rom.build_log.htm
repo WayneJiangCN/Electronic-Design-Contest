@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=585FJ-UBCFJ-CXIU6-DCEP2-LB2KC-91EJ0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
+Toolchain Path:  D:\Program_Files\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.32.12.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+E:\Arm\Travmly\MSP432\ADC\ADC_single_Time\project\keil\my_project_ROM.uvprojx
+Project File Date:  08/18/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Program_Files\Keil_v5\ARM\ARMCC\Bin'
+Build target 'my_project'
+compiling main.c...
+..\..\hardware\TPL0401A\tpl0401a.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\main.c(71): warning:  #177-D: variable "t"  was declared but never referenced
+  	uint8_t t=0;
+..\..\main.c(376): warning:  #1-D: last line of file ends without a newline
+  		*/
+..\..\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=8332 RO-data=2084 RW-data=92 ZI-data=4908  
+After Build - User command #1: fromelf --bin --output .\Build\my_project_ROM.bin .\Build\my_project_ROM.axf
+".\Build\my_project_rom.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/msp432cmsis/latest/exports/TexasInstruments.MSP432P4xx_DFP.3.2.6.pack
+                TexasInstruments.MSP432P4xx_DFP.3.2.6
+                Device Family Pack for Texas Instruments SimpleLink(TM) MSP432 Series
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_my_project
+  D:\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\AppData\Local\Arm\Packs\TexasInstruments\MSP432P4xx_DFP\3.2.6\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
